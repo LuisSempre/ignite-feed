@@ -38,7 +38,7 @@ export function Post() {
           Publicar
         </button>
       </form>
-      <div className="mt-8 space-y-8">
+      <div className="space-y-8">
         <Comment />
         <Comment />
         <Comment />

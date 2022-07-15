@@ -2,7 +2,7 @@ import { Comment } from "./Comment";
 
 export function Post() {
   return (
-    <div className="h-screen p-8 bg-gray-900 border border-green-500 rounded-md ">
+    <div className="h-screen p-8 space-y-4 bg-gray-900 border border-green-500 rounded-md ">
       <div className="flex justify-between ">
         <div className="flex gap-4">
           <img
@@ -38,7 +38,7 @@ export function Post() {
           Publicar
         </button>
       </form>
-      <div className="mt-8 space-y-8">
+      <div className="space-y-8">
         <Comment />
         <Comment />
         <Comment />

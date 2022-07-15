@@ -2,7 +2,7 @@ import { Comment } from "./Comment";
 
 export function Post() {
   return (
-    <div className="h-screen p-8 bg-gray-900 border border-green-500 rounded-md ">
+    <div className="h-screen p-8 space-y-4 bg-gray-900 border border-green-500 rounded-md ">
       <div className="flex justify-between ">
         <div className="flex gap-4">
           <img
@@ -25,7 +25,7 @@ export function Post() {
         <p>#javascript #nlw #rocketseat</p>
       </div>
 
-      <form className="flex flex-col items-start justify-start space-y-4">
+      <form className="flex flex-col items-start justify-start mb-8 space-y-4">
         <strong>Comente:</strong>
         <textarea
           className="w-full p-4 placeholder-green-500 bg-black rounded-md resize-none focus:-green-500"
@@ -38,7 +38,7 @@ export function Post() {
           Publicar
         </button>
       </form>
-      <div className="mt-8 space-y-8">
+      <div className="space-y-4">
         <Comment />
         <Comment />
         <Comment />

@@ -1,8 +1,8 @@
-import { Comment } from "./Comment";
+import { Comment } from "./Comment"
 
 export function Post() {
   return (
-    <div className="h-screen p-8 bg-gray-900 border border-green-500 rounded-md ">
+    <div className="h-screen p-8 space-y-4 bg-gray-900 border border-green-500 rounded-md ">
       <div className="flex justify-between ">
         <div className="flex gap-4">
           <img
@@ -31,18 +31,14 @@ export function Post() {
           className="w-full p-4 placeholder-green-500 bg-black rounded-md resize-none focus:-green-500"
           placeholder="Comente aqui"
         />
-        <button
-          type="submit"
-          className="px-4 py-2 text-green-500 border border-green-500 rounded-full"
-        >
-          Publicar
-        </button>
+          <button
+            type="submit"
+            className="px-4 py-2 text-green-500 border border-green-500 rounded-full"
+          >
+            Publicar
+          </button>
       </form>
-      <div className="mt-8 space-y-8">
-        <Comment />
-        <Comment />
-        <Comment />
-      </div>
+      <Comment />
     </div>
   );
 }

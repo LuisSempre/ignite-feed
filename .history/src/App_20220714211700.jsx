@@ -1,7 +1,7 @@
 import { Header } from "./Components/Header"
 import { Sidebar } from "./Components/Sidebar"
 import { Post } from "./Components/Post"
-
+import { Comment } from "./Components/Comment"
 function App() {
   return (
     <div>
@@ -10,6 +10,7 @@ function App() {
         <Sidebar /> 
         <div className="col-span-2">
          <Post />
+         <Comment />
         </div>
       </div>
     </div>
